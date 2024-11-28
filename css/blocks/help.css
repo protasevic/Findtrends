@@ -1,0 +1,32 @@
+.help {
+    padding: 140px 0;
+}
+
+.help-text {
+    max-width: 1265px;
+    text-align: center;
+    color: black;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.help-text span {
+    color: #ADADAD;
+}
+
+
+@media(max-width:750px) {
+    .help-text {
+        font-size: 50px;
+        text-align: left;
+    }
+}
+
+@media(max-width:500px) {
+    .help-text {
+        font-size: 36px;
+        text-align: left;
+        font-weight: 900;
+    }
+}
+

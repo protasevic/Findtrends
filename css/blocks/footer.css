@@ -1,0 +1,49 @@
+.footer {
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.footer-img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-logo-name {
+    font-family: "Inter", sans-serif;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-list {
+    display: flex;
+    column-gap: 40px;
+}
+
+.footer-list li a {
+    color: #000;
+}
+
+
+@media(max-width: 890px) {
+    .footer-content {
+        flex-direction: column;
+        row-gap: 80px;
+        text-align: center;
+    }
+
+    .footer-list {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}

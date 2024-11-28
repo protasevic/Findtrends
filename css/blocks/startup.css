@@ -1,0 +1,43 @@
+.startup {
+    padding: 140px 0;
+    background-color: #F5F5F5;
+    color: #000;
+}
+
+.startup-content {
+    text-align: center;
+    justify-content: center;
+}
+
+.startup-title {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 80px;
+}
+
+.start-up-mobile {
+    display: none;
+}
+
+
+
+
+@media(max-width:900px) {
+    .startup-title {
+        font-size: 50px;
+    }
+    .startup-img {
+        display: none;
+    }
+    .start-up-mobile {
+        display: inline-block;
+    }
+}
+
+
+@media(max-width:500px) {
+    .startup-title {
+        font-size: 36px;
+        font-weight: 900;
+    }
+}

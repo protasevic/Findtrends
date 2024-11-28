@@ -1,0 +1,41 @@
+.platform {
+    padding: 140px 0;
+    background-color: #FAFAFA;
+}
+
+.platform-content {
+    text-align: center;
+    color: black;
+}
+
+.platform-title {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.platform-img {
+    margin-bottom: 77px;
+}
+
+.platform-imgs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 43px;
+    align-items: center;
+}
+
+.platform-imgs img {
+    width: 800px;
+}
+
+
+@media(max-width:700px) {
+    .platform-title {
+        font-size: 50px;
+    }
+    .platform-imgs img {
+        width: 340px;
+    }
+
+}
